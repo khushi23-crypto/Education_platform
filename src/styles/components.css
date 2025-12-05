@@ -1,0 +1,169 @@
+/* Button Component Styles */
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #ffd700, #ffed4a);
+  color: #1e293b;
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #ffed4a, #ffd700);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+.btn.full-width {
+  width: 100%;
+}
+
+/* Course Card Enhancements */
+.course-card {
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  border: 1px solid #e2e8f0;
+  position: relative;
+  overflow: hidden;
+}
+
+.course-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #2563eb, #ffd700);
+}
+
+.course-card:hover {
+  border-color: #2563eb;
+  transform: translateY(-10px);
+}
+
+/* Feature Card Enhancements */
+.feature-card {
+  background: linear-gradient(145deg, #ffffff, #f8fafc);
+  border: 1px solid #e2e8f0;
+  position: relative;
+}
+
+.feature-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #2563eb, #ffd700);
+  transition: width 0.3s ease;
+}
+
+.feature-card:hover::after {
+  width: 80%;
+}
+
+/* Auth Form Enhancements */
+.auth-card input:focus,
+.auth-card textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.auth-card input,
+.auth-card textarea {
+  background: #f8fafc;
+  transition: all 0.3s ease;
+}
+
+.auth-card input:hover,
+.auth-card textarea:hover {
+  background: white;
+}
+
+/* Navbar Enhancements */
+.navbar {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #475569;
+  font-weight: 500;
+  padding: 0.75rem 1.25rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #2563eb, #ffd700);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 80%;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #2563eb;
+  background: rgba(37, 99, 235, 0.1);
+}
+
+/* Mobile Navbar Toggle */
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.navbar-toggle span {
+  width: 25px;
+  height: 3px;
+  background: #2563eb;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Button */
+@media (max-width: 768px) {
+  .btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 1rem;
+  }
+}
