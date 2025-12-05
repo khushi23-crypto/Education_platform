@@ -74,11 +74,13 @@ education-platform/
 
 | **Light Mode** | **Dark Mode (Default)** |
 |---|---|
-| ![Light Mode](https://via.placeholder.com/800x400/ffffff/2563eb?text=Light+Mode) | ![Dark Mode](https://via.placeholder.com/800x400/0f172a/60a5fa?text=Dark+Mode) |
+| ![Light Mode]<img width="1210" height="601" alt="image" src="https://github.com/user-attachments/assets/f7236b3d-7202-4c1a-b558-a2c45b76e5b6" />
+|
 
-| **Contact Form** | **Courses Page** |
+| **Courses** |
 |---|---|
-| ![Contact](https://via.placeholder.com/400x300/667eea/ffffff?text=Animated+Contact+Form) | ![Courses](https://via.placeholder.com/400x300/f8fafc/2563eb?text=Course+Cards) |
+| ![Courses]<img width="1210" height="601" alt="image" src="https://github.com/user-attachments/assets/6c082f50-41bc-44e9-a6eb-a4267782c3c6" />
+|
 
 ## 🌙 **Dark Mode Features**
 
