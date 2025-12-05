@@ -4,23 +4,23 @@ const Courses = () => {
   const courses = [
     {
       title: 'Web Development Bootcamp',
-      instructor: 'John Doe',
+      instructor: 'Shubham Kumar',
       duration: '12 weeks',
-      price: '$199',
+      price: '199/-',
       level: 'Beginner'
     },
     {
       title: 'Data Science Mastery',
-      instructor: 'Jane Smith',
+      instructor: 'Rishabh Bharti',
       duration: '16 weeks',
-      price: '$299',
+      price: '299/-',
       level: 'Intermediate'
     },
     {
       title: 'Digital Marketing Pro',
-      instructor: 'Mike Johnson',
+      instructor: 'Aditya kumar',
       duration: '8 weeks',
-      price: '$149',
+      price: '149/-',
       level: 'Beginner'
     }
   ];
